@@ -52,3 +52,9 @@ def st(s):
     else:
         print(s[:3])
 st(s)
+
+Write a Python program to get the last part of a string before a specified character.
+k=input('enter the char:')
+s=input('enter the string:')
+print(''.join(s.split(k)[0]))
+
